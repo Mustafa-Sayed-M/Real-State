@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "icon": "features/1.png",
+        "text": "Find Your Dream Home"
+    },
+    {
+        "id": 2,
+        "icon": "features/2.png",
+        "text": "Unlock Property Value"
+    },
+    {
+        "id": 3,
+        "icon": "features/3.png",
+        "text": "Effortless Property Management"
+    },
+    {
+        "id": 4,
+        "icon": "features/4.png",
+        "text": "Smart 5, Informed Decisions"
+    }
+]

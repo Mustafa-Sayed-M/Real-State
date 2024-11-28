@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "title": "Outstanding Service!",
+        "content": "The team went above and beyond to deliver exactly what I needed. Highly recommend!",
+        "author": {
+            "avatar": "home_imgs/testimonials_avatars/1.jpg",
+            "name": "Sarah Johnson",
+            "job": "Marketing Manager at CreativeCo"
+        }
+    },
+    {
+        "id": 2,
+        "title": "Incredible Results!",
+        "content": "Their attention to detail and dedication made a huge difference. My project turned out amazing.",
+        "author": {
+            "avatar": "home_imgs/testimonials_avatars/2.jpg",
+            "name": "Michael Brown",
+            "job": "Founder of StartupSpace"
+        }
+    },
+    {
+        "id": 3,
+        "title": "Highly Professional",
+        "content": "Great communication throughout the process. They delivered on time and exceeded my expectations.",
+        "author": {
+            "avatar": "home_imgs/testimonials_avatars/3.jpg",
+            "name": "Emily Davis",
+            "job": "Product Manager at Tech Innovators"
+        }
+    },
+    {
+        "id": 4,
+        "title": "Exceeded Expectations",
+        "content": "Fantastic work! The quality and creativity were top-notch. Would work with them again in a heartbeat.",
+        "author": {
+            "avatar": "home_imgs/testimonials_avatars/4.jpg",
+            "name": "David Wilson",
+            "job": "CEO at Wilson Enterprises"
+        }
+    },
+    {
+        "id": 5,
+        "title": "Truly Exceptional",
+        "content": "This team brought my vision to life better than I ever imagined. Excellent experience!",
+        "author": {
+            "avatar": "home_imgs/testimonials_avatars/5.jpg",
+            "name": "Anna Martinez",
+            "job": "Creative Director at Design Studio"
+        }
+    },
+    {
+        "id": 6,
+        "title": "Amazing Experience",
+        "content": "From start to finish, the process was seamless and the results were perfect. Thank you!",
+        "author": {
+            "avatar": "home_imgs/testimonials_avatars/6.jpg",
+            "name": "James Anderson",
+            "job": "Freelance Photographer"
+        }
+    }
+]

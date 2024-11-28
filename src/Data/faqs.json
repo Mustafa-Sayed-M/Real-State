@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "question": "What types of properties are available?",
+        "answer": "We offer a wide range of properties, including apartments, villas, townhouses, commercial spaces, and land."
+    },
+    {
+        "id": 2,
+        "question": "How do I schedule a property viewing?",
+        "answer": "You can schedule a viewing by contacting our agents through the property listing page or by calling our customer support team."
+    },
+    {
+        "id": 3,
+        "question": "Are there financing options available?",
+        "answer": "Yes, we work with trusted financial institutions to offer mortgage and loan options for property purchases."
+    },
+    {
+        "id": 4,
+        "question": "What is the process for buying a property?",
+        "answer": "The process involves selecting a property, negotiating the price, signing a sales agreement, and completing legal and financial documentation."
+    },
+    {
+        "id": 5,
+        "question": "Do you offer rental properties?",
+        "answer": "Yes, we have a wide selection of rental properties available, including furnished and unfurnished options."
+    },
+    {
+        "id": 6,
+        "question": "Can I sell my property through your platform?",
+        "answer": "Absolutely! You can list your property for sale by filling out our online form, and one of our agents will assist you with the process."
+    }
+]

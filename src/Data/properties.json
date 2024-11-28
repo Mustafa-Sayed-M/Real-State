@@ -1,0 +1,192 @@
+[
+    {
+        "id": 1,
+        "title": "Luxury Villa with Pool",
+        "description": "A spacious villa with a private pool and stunning mountain views.",
+        "location": "Giza, Egypt",
+        "price": 1200000,
+        "bedrooms": 5,
+        "bathrooms": 4,
+        "image": "",
+        "area": "450 sqm",
+        "buildYear": "2018",
+        "type": "Villa",
+        "featured": true,
+        "keyFeatures": [
+            "Private pool",
+            "Mountain view",
+            "Large garden"
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Modern Apartment in Downtown",
+        "description": "A sleek apartment in the heart of the city with all modern amenities.",
+        "location": "Cairo, Egypt",
+        "price": 750000,
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "image": "",
+        "area": "120 sqm",
+        "buildYear": "2020",
+        "type": "Apartment",
+        "featured": false,
+        "keyFeatures": [
+            "City view",
+            "Balcony",
+            "Near metro station"
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Cozy Studio Apartment",
+        "description": "A fully furnished studio apartment, perfect for singles or couples.",
+        "location": "Alexandria, Egypt",
+        "price": 200000,
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "image": "",
+        "area": "45 sqm",
+        "buildYear": "2015",
+        "type": "Studio",
+        "featured": false,
+        "keyFeatures": [
+            "Furnished",
+            "Near beach",
+            "Affordable price"
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Elegant Duplex in Compound",
+        "description": "An elegant duplex located in a secure gated community.",
+        "location": "New Cairo, Egypt",
+        "price": 950000,
+        "bedrooms": 4,
+        "bathrooms": 3,
+        "image": "",
+        "area": "200 sqm",
+        "buildYear": "2017",
+        "type": "Duplex",
+        "featured": true,
+        "keyFeatures": [
+            "Gated community",
+            "24/7 security",
+            "Shared pool"
+        ]
+    },
+    {
+        "id": 5,
+        "title": "Family House with Garden",
+        "description": "A comfortable house with a large garden, ideal for families.",
+        "location": "Mansoura, Egypt",
+        "price": 500000,
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "image": "",
+        "area": "150 sqm",
+        "buildYear": "2010",
+        "type": "House",
+        "featured": false,
+        "keyFeatures": [
+            "Large garden",
+            "Quiet neighborhood",
+            "Garage"
+        ]
+    },
+    {
+        "id": 6,
+        "title": "Seaside Cottage",
+        "description": "A beautiful cottage by the sea, offering tranquility and fresh air.",
+        "location": "Dahab, Egypt",
+        "price": 400000,
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "image": "",
+        "area": "80 sqm",
+        "buildYear": "2012",
+        "type": "Cottage",
+        "featured": true,
+        "keyFeatures": [
+            "Sea view",
+            "Private terrace",
+            "Nearby market"
+        ]
+    },
+    {
+        "id": 7,
+        "title": "Affordable Flat",
+        "description": "A budget-friendly flat in a developing neighborhood.",
+        "location": "Asyut, Egypt",
+        "price": 150000,
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "image": "",
+        "area": "60 sqm",
+        "buildYear": "2008",
+        "type": "Flat",
+        "featured": false,
+        "keyFeatures": [
+            "Affordable price",
+            "Easy access to transport",
+            "Low maintenance"
+        ]
+    },
+    {
+        "id": 8,
+        "title": "Penthouse with Rooftop",
+        "description": "A luxurious penthouse with a private rooftop and city views.",
+        "location": "Sheikh Zayed, Egypt",
+        "price": 2500000,
+        "bedrooms": 4,
+        "bathrooms": 3,
+        "image": "",
+        "area": "300 sqm",
+        "buildYear": "2021",
+        "type": "Penthouse",
+        "featured": true,
+        "keyFeatures": [
+            "Private rooftop",
+            "City view",
+            "Premium location"
+        ]
+    },
+    {
+        "id": 9,
+        "title": "Country Farmhouse",
+        "description": "A charming farmhouse surrounded by greenery and farmland.",
+        "location": "Fayoum, Egypt",
+        "price": 600000,
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "image": "",
+        "area": "250 sqm",
+        "buildYear": "2005",
+        "type": "Farmhouse",
+        "featured": false,
+        "keyFeatures": [
+            "Large farmland",
+            "Outdoor patio",
+            "Fresh air"
+        ]
+    },
+    {
+        "id": 10,
+        "title": "Luxury Mansion",
+        "description": "A stunning mansion with a grand design and world-class facilities.",
+        "location": "Zamalek, Egypt",
+        "price": 10000000,
+        "bedrooms": 8,
+        "bathrooms": 6,
+        "image": "",
+        "area": "1000 sqm",
+        "buildYear": "2019",
+        "type": "Mansion",
+        "featured": true,
+        "keyFeatures": [
+            "Swimming pool",
+            "Private gym",
+            "Home theater"
+        ]
+    }
+]
