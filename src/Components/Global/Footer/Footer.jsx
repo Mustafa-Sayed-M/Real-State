@@ -1,120 +1,85 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
-
+import { Link } from 'react-router-dom';
+import SocialProfile from './Components/SocialProfile';
+import Links from './Components/Links';
+import FormSubscribe from './Components/FormSubscribe';
 
 function Footer() {
-
-    const navigate = useNavigate();
-
-    const handleClick = (e, page) => {
-        e.preventDefault();
-        const sectionElement = document.getElementById(e.target.dataset.sectionId);
-        if (sectionElement) {
-            navigate(page);
-            sectionElement.scrollIntoView({ behavior: 'smooth' });
-        };
-    };
-
     return (
-        <footer className='py-7'>
-            <div className='container space-y-7'>
-                {/* Form */}
-                <form className='bg-red-100'>
-                    Form
-                </form>
+        <footer>
+            <div className='container space-y-7 py-7'>
+                {/* Form Subscribe */}
+                <FormSubscribe />
                 {/* Content Grid */}
                 <div className='content-grid grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-5'>
                     {/* Home Links */}
-                    <div>
-                        <h3 className='text-grey-color-60 font-medium mb-2'>Home</h3>
-                        <ul>
-                            <li>
-                                <a onClick={e => handleClick(e, '/')} className='block py-2 sm:hover:underline' href='/landing' data-sectionId='landing'>Hero Section</a>
-                            </li>
-                            <li>
-                                <a onClick={e => handleClick(e, '/')} className='block py-2 sm:hover:underline' href='/features' data-sectionId='features'>Features</a>
-                            </li>
-                            <li>
-                                <a onClick={e => handleClick(e, '/')} className='block py-2 sm:hover:underline' href='/properties' data-sectionId='featured-properties'>Properties</a>
-                            </li>
-                            <li>
-                                <a onClick={e => handleClick(e, '/')} className='block py-2 sm:hover:underline' href='/testimonials' data-sectionId='testimonials'>Testimonials</a>
-                            </li>
-                            <li>
-                                <a onClick={e => handleClick(e, '/')} className='block py-2 sm:hover:underline' href='/faq' data-sectionId='faq'>FAQ’s</a>
-                            </li>
-                        </ul>
-                    </div>
+                    <Links
+                        title={'Home'}
+                        linksData={[
+                            { href: '/landing', text: 'Hero Section' },
+                            { href: '/features', text: 'Features' },
+                            { href: '/properties', text: 'Properties' },
+                            { href: '/testimonials', text: 'Testimonials' },
+                            { href: '/faq', text: 'FAQ’s' },
+                        ]}
+                    />
                     {/* About Links */}
-                    <div>
-                        <h3 className='text-grey-color-60 font-medium mb-2'>About Us</h3>
-                        <ul>
-                            <li>
-                                <a onClick={e => handleClick(e)} className='block py-2 sm:hover:underline' href='/'>Our Story</a>
-                            </li>
-                            <li>
-                                <a onClick={e => handleClick(e)} className='block py-2 sm:hover:underline' href='/'>Our Works</a>
-                            </li>
-                            <li>
-                                <a onClick={e => handleClick(e)} className='block py-2 sm:hover:underline' href='/'>How It Works</a>
-                            </li>
-                            <li>
-                                <a onClick={e => handleClick(e)} className='block py-2 sm:hover:underline' href='/'>Our Team</a>
-                            </li>
-                            <li>
-                                <a onClick={e => handleClick(e)} className='block py-2 sm:hover:underline' href='/'>Our Clients</a>
-                            </li>
-                        </ul>
-                    </div>
+                    <Links
+                        title={'About'}
+                        linksData={[
+                            { href: '/', text: 'About Us' },
+                            { href: '/', text: 'Our Story' },
+                            { href: '/', text: 'Our Works' },
+                            { href: '/', text: 'How It Works' },
+                            { href: '/', text: 'Our Team' },
+                            { href: '/', text: 'Our Clients' },
+                        ]}
+                    />
                     {/* Properties Links */}
-                    <div>
-                        <h3 className='text-grey-color-60 font-medium mb-2'>Properties</h3>
-                        <ul>
-                            <li>
-                                <a onClick={e => handleClick(e)} className='block py-2 sm:hover:underline' href='/'>Portfolio</a>
-                            </li>
-                            <li>
-                                <a onClick={e => handleClick(e)} className='block py-2 sm:hover:underline' href='/'>Categories</a>
-                            </li>
-                        </ul>
-                    </div>
+                    <Links
+                        title={'Properties'}
+                        linksData={[
+                            { href: '/', text: 'Properties' },
+                            { href: '/', text: 'Portfolio' },
+                            { href: '/', text: 'Categories' },
+                        ]}
+                    />
                     {/* Services Links */}
-                    <div>
-                        <h3 className='text-grey-color-60 font-medium mb-2'>Services</h3>
-                        <ul>
-                            <li>
-                                <a onClick={e => handleClick(e)} className='block py-2 sm:hover:underline' href='/'>Valuation Mastery</a>
-                            </li>
-                            <li>
-                                <a onClick={e => handleClick(e)} className='block py-2 sm:hover:underline' href='/'>Strategic Marketing</a>
-                            </li>
-                            <li>
-                                <a onClick={e => handleClick(e)} className='block py-2 sm:hover:underline' href='/'>Negotiation Wizardry</a>
-                            </li>
-                            <li>
-                                <a onClick={e => handleClick(e)} className='block py-2 sm:hover:underline' href='/'>Closing Success</a>
-                            </li>
-                            <li>
-                                <a onClick={e => handleClick(e)} className='block py-2 sm:hover:underline' href='/'>Property Management</a>
-                            </li>
-                        </ul>
-                    </div>
+                    <Links
+                        title={'Services'}
+                        linksData={[
+                            { href: '/', text: 'Valuation Mastery' },
+                            { href: '/', text: 'Strategic Marketing' },
+                            { href: '/', text: 'Negotiation Wizardry' },
+                            { href: '/', text: 'Success' },
+                            { href: '/', text: 'Property Management' },
+                        ]}
+                    />
                     {/* Contact Links */}
-                    <div>
-                        <h3 className='text-grey-color-60 font-medium mb-2'>Contact Us</h3>
-                        <ul>
-                            <li>
-                                <a onClick={e => handleClick(e)} className='block py-2 sm:hover:underline' href='/'>Contact Form</a>
-                            </li>
-                            <li>
-                                <a onClick={e => handleClick(e)} className='block py-2 sm:hover:underline' href='/'>Our Offices</a>
-                            </li>
-                        </ul>
-                    </div>
+                    <Links
+                        title={'Contact'}
+                        linksData={[
+                            { href: '/', text: 'Contact Us' },
+                            { href: '/', text: 'Contact Form' },
+                            { href: '/', text: 'Our Offices' },
+                        ]}
+                    />
                 </div>
-                {/* Copyright */}
-                <div className='copyright'>
-                    Copyright
+            </div>
+            {/* Copyright */}
+            <div className='copyright bg-grey-color-10 py-3'>
+                <div className='container flex items-center justify-between gap-3 max-md:flex-col'>
+                    {/* Condition Used Links */}
+                    <ul className='flex items-center gap-2 max-sm:flex-col'>
+                        <li>
+                            <Link to={'/'} className='sm:hover:text-purple-color-60 transition'>@2023 Estatein. All Rights Reserved.</Link>
+                        </li>
+                        <li>
+                            <Link to={'/'} className='sm:hover:text-purple-color-60 transition'>Terms & Conditions</Link>
+                        </li>
+                    </ul>
+                    {/* Social Links */}
+                    <SocialProfile />
                 </div>
             </div>
         </footer>

@@ -26,7 +26,6 @@ function Faq() {
                             640: { slidesPerView: 2 },
                             991: { slidesPerView: 3 }
                         }}
-                        onSwiper={(swiper) => console.log(swiper)}
                     >
                         {faqs.map((faq, index) => <SwiperSlide key={index}>
                             <FaqCard faqData={faq} />

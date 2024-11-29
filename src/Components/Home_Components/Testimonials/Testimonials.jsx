@@ -25,7 +25,6 @@ function Testimonials() {
                             640: { slidesPerView: 2 },
                             991: { slidesPerView: 3 }
                         }}
-                        onSwiper={(swiper) => console.log(swiper)}
                     >
                         {
                             testimonials.map((testimonial, index) => <SwiperSlide key={index}>

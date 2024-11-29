@@ -33,7 +33,6 @@ function FeaturedProperties() {
                             640: { slidesPerView: 2 },
                             991: { slidesPerView: 3 }
                         }}
-                        onSwiper={(swiper) => console.log(swiper)}
                     >
                         {featuredProperties.map((property, index) => <SwiperSlide key={index}>
                             <PropertyCard propertyData={property} />
