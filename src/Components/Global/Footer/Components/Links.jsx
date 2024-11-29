@@ -6,7 +6,7 @@ function Links({ title, linksData }) {
             <h3 className='text-grey-color-60 font-medium mb-2'>{title}</h3>
             <ul>
                 {
-                    linksData.map((link, index) => <li>
+                    linksData.map((link, index) => <li key={index}>
                         <a className='block py-2 sm:hover:underline' href={link.href}>{link.text}</a>
                     </li>)
                 }

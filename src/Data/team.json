@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "pic": "about_imgs/team/1.png",
+        "name": "Max Mitchell",
+        "job": "Founder",
+        "facebookProfile": ""
+    },
+    {
+        "id": 2,
+        "pic": "about_imgs/team/2.png",
+        "name": "Sarah Johnson",
+        "job": "Chief Real Estate Officer",
+        "facebookProfile": ""
+    },
+    {
+        "id": 3,
+        "pic": "about_imgs/team/3.png",
+        "name": "David Brown",
+        "job": "Head of Property Management",
+        "facebookProfile": ""
+    },
+    {
+        "id": 4,
+        "pic": "about_imgs/team/4.png",
+        "name": "Michael Turner",
+        "job": "Legal Counsel",
+        "facebookProfile": ""
+    }
+]
