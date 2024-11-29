@@ -16,7 +16,7 @@ const FeatureCard = ({ featureData }) => {
             <img
                 src={`${process.env.PUBLIC_URL}/assets/${icon}`}
                 alt={text}
-                className='mx-auto'
+                className='mx-auto mb-2'
             />
             {/* Text */}
             <h3 className='font-medium text-center'>{text}</h3>
