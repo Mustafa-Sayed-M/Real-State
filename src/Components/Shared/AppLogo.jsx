@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-function NavbarLogo() {
+function AppLogo() {
     return (
         <Link
             to={'/'}
@@ -18,4 +18,4 @@ function NavbarLogo() {
     )
 }
 
-export default NavbarLogo;
+export default AppLogo;

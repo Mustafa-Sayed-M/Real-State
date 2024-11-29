@@ -2,14 +2,14 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import NavbarMenuToggler from './Components/NavbarMenuToggler';
 import NavbarLinks from './Components/NavbarLinks';
-import NavbarLogo from './Components/NavbarLogo';
+import AppLogo from '../../../Shared/AppLogo';
 
 function Navbar() {
     return (
         <nav className='bg-grey-color-10 border-b border-b-grey-color-15'>
             <div className='container min-h-[60px] py-3 flex flex-wrap gap-3 items-center justify-between'>
                 {/* Logo */}
-                <NavbarLogo />
+                <AppLogo />
                 {/* Links */}
                 <NavbarLinks />
                 {/* Contact Link */}
