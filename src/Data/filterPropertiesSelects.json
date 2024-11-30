@@ -1,0 +1,229 @@
+[
+    {
+        "id": "location",
+        "name": "location",
+        "fontAwesomeIconClass": "location-dot",
+        "options": [
+            {
+                "value": "",
+                "text": "Select"
+            },
+            {
+                "value": "Giza,Egypt",
+                "text": "Giza, Egypt"
+            },
+            {
+                "value": "Cairo,Egypt",
+                "text": "Cairo, Egypt"
+            },
+            {
+                "value": "Alexandria,Egypt",
+                "text": "Alexandria, Egypt"
+            },
+            {
+                "value": "New Cairo,Egypt",
+                "text": "New Cairo, Egypt"
+            },
+            {
+                "value": "Mansoura,Egypt",
+                "text": "Mansoura, Egypt"
+            },
+            {
+                "value": "Dahab,Egypt",
+                "text": "Dahab, Egypt"
+            },
+            {
+                "value": "Asyut,Egypt",
+                "text": "Asyut, Egypt"
+            },
+            {
+                "value": "Sheikh Zayed,Egypt",
+                "text": "Sheikh Zayed, Egypt"
+            },
+            {
+                "value": "Fayoum,Egypt",
+                "text": "Fayoum, Egypt"
+            },
+            {
+                "value": "Zamalek,Egypt",
+                "text": "Zamalek, Egypt"
+            }
+        ]
+    },
+    {
+        "id": "propertyType",
+        "name": "propertyType",
+        "fontAwesomeIconClass": "house-chimney",
+        "options": [
+            {
+                "value": "",
+                "text": "Select"
+            },
+            {
+                "value": "Villa",
+                "text": "Villa"
+            },
+            {
+                "value": "Apartment",
+                "text": "Apartment"
+            },
+            {
+                "value": "Studio",
+                "text": "Studio"
+            },
+            {
+                "value": "Duplex",
+                "text": "Duplex"
+            },
+            {
+                "value": "House",
+                "text": "House"
+            },
+            {
+                "value": "Cottage",
+                "text": "Cottage"
+            },
+            {
+                "value": "Flat",
+                "text": "Flat"
+            },
+            {
+                "value": "Penthouse",
+                "text": "Penthouse"
+            },
+            {
+                "value": "Farmhouse",
+                "text": "Farmhouse"
+            },
+            {
+                "value": "Mansion",
+                "text": "Mansion"
+            }
+        ]
+    },
+    {
+        "id": "pricingRange",
+        "name": "pricingRange",
+        "fontAwesomeIconClass": "money-bill-wave",
+        "options": [
+            {
+                "value": "",
+                "text": "Select"
+            },
+            {
+                "value": "150000-200000",
+                "text": "150,000 - 200,000 EGP"
+            },
+            {
+                "value": "200000-400000",
+                "text": "200,000 - 400,000 EGP"
+            },
+            {
+                "value": "400000-600000",
+                "text": "400,000 - 600,000 EGP"
+            },
+            {
+                "value": "600000-950000",
+                "text": "600,000 - 950,000 EGP"
+            },
+            {
+                "value": "950000-1200000",
+                "text": "950,000 - 1,200,000 EGP"
+            },
+            {
+                "value": "1200000-2500000",
+                "text": "1,200,000 - 2,500,000 EGP"
+            },
+            {
+                "value": "2500000-10000000",
+                "text": "2,500,000 - 10,000,000 EGP"
+            }
+        ]
+    },
+    {
+        "id": "propertySize",
+        "name": "propertySize",
+        "fontAwesomeIconClass": "cube",
+        "options": [
+            {
+                "value": "",
+                "text": "Select"
+            },
+            {
+                "value": "45-80",
+                "text": "45 - 80 sqm"
+            },
+            {
+                "value": "80-150",
+                "text": "80 - 150 sqm"
+            },
+            {
+                "value": "150-200",
+                "text": "150 - 200 sqm"
+            },
+            {
+                "value": "200-300",
+                "text": "200 - 300 sqm"
+            },
+            {
+                "value": "300-450",
+                "text": "300 - 450 sqm"
+            },
+            {
+                "value": "450-1000",
+                "text": "450 - 1000 sqm"
+            }
+        ]
+    },
+    {
+        "id": "buildYear",
+        "name": "buildYear",
+        "fontAwesomeIconClass": "calendar",
+        "options": [
+            {
+                "value": "",
+                "text": "Select"
+            },
+            {
+                "value": "2005",
+                "text": "2005"
+            },
+            {
+                "value": "2008",
+                "text": "2008"
+            },
+            {
+                "value": "2010",
+                "text": "2010"
+            },
+            {
+                "value": "2012",
+                "text": "2012"
+            },
+            {
+                "value": "2015",
+                "text": "2015"
+            },
+            {
+                "value": "2017",
+                "text": "2017"
+            },
+            {
+                "value": "2018",
+                "text": "2018"
+            },
+            {
+                "value": "2019",
+                "text": "2019"
+            },
+            {
+                "value": "2020",
+                "text": "2020"
+            },
+            {
+                "value": "2021",
+                "text": "2021"
+            }
+        ]
+    }
+]
