@@ -1,8 +1,7 @@
 import React from 'react';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import PropertyCard from '../../Shared/PropertyCard';
 import HeadSection from '../../Shared/HeadSection';
 import properties from '../../../Data/properties.json';
+import PropertiesSlider from '../../Shared/PropertiesSlider';
 import 'swiper/css';
 
 function FeaturedProperties() {
@@ -25,19 +24,9 @@ function FeaturedProperties() {
                         text: 'View All Properties'
                     }}
                 />
-                {/* Features Properties Slider */}
-                <div className='features-properties-slider'>
-                    <Swiper
-                        spaceBetween={15}
-                        breakpoints={{
-                            640: { slidesPerView: 2 },
-                            991: { slidesPerView: 3 }
-                        }}
-                    >
-                        {featuredProperties.map((property, index) => <SwiperSlide key={index}>
-                            <PropertyCard propertyData={property} />
-                        </SwiperSlide>)}
-                    </Swiper>
+                {/* Features Properties Slider Container */}
+                <div className='features-properties-slider-container'>
+                    <PropertiesSlider propertiesList={featuredProperties} />
                 </div>
             </div>
         </section>
