@@ -1,0 +1,34 @@
+[
+    {
+        "label": "First Name",
+        "id": "firstName",
+        "name": "firstName",
+        "type": "text",
+        "autoComplete": "off",
+        "placeholder": "Enter First Name"
+    },
+    {
+        "label": "Last Name",
+        "id": "lastName",
+        "name": "lastName",
+        "type": "text",
+        "autoComplete": "off",
+        "placeholder": "Enter Last Name"
+    },
+    {
+        "label": "Email",
+        "id": "email",
+        "name": "email",
+        "type": "text",
+        "autoComplete": "off",
+        "placeholder": "Enter your Email"
+    },
+    {
+        "label": "Phone",
+        "id": "phone",
+        "name": "phone",
+        "type": "text",
+        "autoComplete": "off",
+        "placeholder": "Enter Phone Number"
+    }
+]

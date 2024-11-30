@@ -1,0 +1,48 @@
+[
+    {
+        "id": "inquiryType",
+        "name": "inquiryType",
+        "label": "Inquiry Type",
+        "options": [
+            {
+                "value": "value",
+                "text": "Select Inquiry Type"
+            },
+            {
+                "value": "value1",
+                "text": "Select Inquiry Type1"
+            },
+            {
+                "value": "value2",
+                "text": "Select Inquiry Type2"
+            },
+            {
+                "value": "value3",
+                "text": "Select Inquiry Type3"
+            }
+        ]
+    },
+    {
+        "id": "howDidYouHearAboutUs",
+        "name": "howDidYouHearAboutUs",
+        "label": "How Did You Hear About Us?",
+        "options": [
+            {
+                "value": "value",
+                "text": "Select"
+            },
+            {
+                "value": "value1",
+                "text": "Select1"
+            },
+            {
+                "value": "value2",
+                "text": "Select2"
+            },
+            {
+                "value": "value3",
+                "text": "Select3"
+            }
+        ]
+    }
+]
