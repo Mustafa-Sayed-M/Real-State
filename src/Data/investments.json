@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "icon": "services_imgs/investments/1.png",
+        "name": "Market Insight",
+        "description": "Stay ahead of market trends with our expert Market Analysis. We provide in-depth insights into real estate market conditions"
+    },
+    {
+        "id": 2,
+        "icon": "services_imgs/investments/2.png",
+        "name": "ROI Assessment",
+        "description": "Make investment decisions with confidence. Our ROI Assessment services evaluate the potential returns on your investments"
+    },
+    {
+        "id": 3,
+        "icon": "services_imgs/investments/3.png",
+        "name": "Customized Strategies",
+        "description": "Every investor is unique, and so are their goals. We develop Customized Investment Strategies tailored to your specific needs"
+    },
+    {
+        "id": 4,
+        "icon": "services_imgs/investments/4.png",
+        "name": "Diversification Mastery",
+        "description": "Diversify your real estate portfolio effectively. Our experts guide you in spreading your investments across various property types and locations"
+    }
+]
