@@ -1,0 +1,57 @@
+[
+    {
+        "id": "location",
+        "name": "location",
+        "label": "Preferred Location",
+        "options": [
+            {
+                "value": "value",
+                "text": "text"
+            }
+        ]
+    },
+    {
+        "id": "propertyType",
+        "name": "propertyType",
+        "label": "Property Type",
+        "options": [
+            {
+                "value": "value",
+                "text": "Select"
+            }
+        ]
+    },
+    {
+        "id": "bathrooms",
+        "name": "bathrooms",
+        "label": "No. of Bathrooms",
+        "options": [
+            {
+                "value": "value",
+                "text": "Select"
+            }
+        ]
+    },
+    {
+        "id": "bedrooms",
+        "name": "bedrooms",
+        "label": "No. of Bedrooms",
+        "options": [
+            {
+                "value": "value",
+                "text": "Select"
+            }
+        ]
+    },
+    {
+        "id": "budget",
+        "name": "budget",
+        "label": "Budget",
+        "options": [
+            {
+                "value": "value",
+                "text": "Select"
+            }
+        ]
+    }
+]

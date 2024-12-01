@@ -1,15 +1,22 @@
-import { ErrorMessage, Formik } from 'formik';
 import React from 'react';
 import * as Yup from 'yup';
+import { ErrorMessage, Formik } from 'formik';
+import FormikInputGroup from '../../../Shared/Formik/FormikInputGroup';
+import FormikSelectGroup from '../../../Shared/Formik/FormikSelectGroup';
+import inputsListData from '../../../../Data/bookInputs.json';
+import selectsListData from '../../../../Data/bookSelects.json';
 
 const initialValues = {
     firstName: '',
     lastName: '',
     email: '',
     phone: '',
+    location: '',
+    propertyType: '',
+    bathrooms: '',
+    bedrooms: '',
+    budget: '',
     message: '',
-    inquiryType: '',
-    howDidYouHearAboutUs: '',
 };
 
 const validationSchema = {
@@ -17,9 +24,12 @@ const validationSchema = {
     lastName: Yup.string().min(2).max(50).required(),
     email: Yup.string().email().required(),
     phone: Yup.number().required(),
+    location: Yup.string().required(),
+    propertyType: Yup.string().required(),
+    bathrooms: Yup.string().required(),
+    bedrooms: Yup.string().required(),
+    budget: Yup.string().required(),
     message: Yup.string().min(10).max(500).required(),
-    inquiryType: Yup.string().required(),
-    howDidYouHearAboutUs: Yup.string().required(),
 };
 
 function BookForm() {
@@ -43,13 +53,28 @@ function BookForm() {
                 }) => (
                     <form onSubmit={handleSubmit}>
                         {/* Content Grid */}
-                        <div className='content-grid grid sm:grid-cols-2 md:grid-cols-3 gap-5 mb-5'>
+                        <div className='content-grid grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 mb-5'>
                             {/* Inputs */}
-                            {[].map((input, index) => <></>)}
+                            {inputsListData.map((input, index) => <FormikInputGroup
+                                key={index}
+                                {...{
+                                    ...input,
+                                    onChange: handleChange,
+                                    onBlur: handleBlur
+                                }}
+                            />)}
                             {/* Selects */}
-                            {[].map((input, index) => <></>)}
+                            {selectsListData.map((select, index) => <FormikSelectGroup
+                                key={index}
+                                className={`${select.name === 'budget' && 'sm:col-span-2 md:col-span-1 lg:col-span-2'}`}
+                                {...{
+                                    ...select,
+                                    onChange: handleChange,
+                                    onBlur: handleBlur
+                                }}
+                            />)}
                             {/* Textarea */}
-                            <div className='sm:col-span-2 md:col-span-3'>
+                            <div className='sm:col-span-2 md:col-span-3 lg:col-span-4'>
                                 {/* Label */}
                                 <label htmlFor={'message'}>Message</label>
                                 {/* Input */}

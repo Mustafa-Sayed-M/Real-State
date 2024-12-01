@@ -58,10 +58,10 @@ function ContactForm() {
                                 }}
                             />)}
                             {/* Selects */}
-                            {selectsListData.map((input, index) => <FormikSelectGroup
+                            {selectsListData.map((select, index) => <FormikSelectGroup
                                 key={index}
                                 {...{
-                                    ...input,
+                                    ...select,
                                     onChange: handleChange,
                                     onBlur: handleBlur
                                 }}

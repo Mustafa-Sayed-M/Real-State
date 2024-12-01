@@ -1,9 +1,9 @@
 import { ErrorMessage } from 'formik';
 import React from 'react';
 
-function FormikInputGroup({ label, ...inputAttributesData }) {
+function FormikInputGroup({ label, className, ...inputAttributesData }) {
     return (
-        <div className='formik-input-group'>
+        <div className={`formik-input-group ${className}`}>
             {/* Label */}
             <label htmlFor={inputAttributesData.id}>{label}</label>
             {/* Input */}
