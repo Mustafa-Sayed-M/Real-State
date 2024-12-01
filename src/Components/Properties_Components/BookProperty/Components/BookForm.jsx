@@ -1,10 +1,6 @@
 import { ErrorMessage, Formik } from 'formik';
 import React from 'react';
 import * as Yup from 'yup';
-import inputsListData from '../../../../Data/contactInputs.json';
-import selectsListData from '../../../../Data/contactSelects.json';
-import FormikInputGroup from '../../../Shared/Formik/FormikInputGroup';
-import FormikSelectGroup from '../../../Shared/Formik/FormikSelectGroup';
 
 const initialValues = {
     firstName: '',
@@ -26,9 +22,9 @@ const validationSchema = {
     howDidYouHearAboutUs: Yup.string().required(),
 };
 
-function ContactForm() {
+function BookForm() {
     return (
-        <div className='contact-form p-3 md:p-5 lg:p-7 rounded-xl border border-grey-color-15'>
+        <div className='book-form p-3 md:p-5 lg:p-7 rounded-xl border border-grey-color-15'>
             <Formik
                 initialValues={initialValues}
                 validationSchema={Yup.object(validationSchema)}
@@ -49,23 +45,9 @@ function ContactForm() {
                         {/* Content Grid */}
                         <div className='content-grid grid sm:grid-cols-2 md:grid-cols-3 gap-5 mb-5'>
                             {/* Inputs */}
-                            {inputsListData.map((input, index) => <FormikInputGroup
-                                key={index}
-                                {...{
-                                    ...input,
-                                    onChange: handleChange,
-                                    onBlur: handleBlur
-                                }}
-                            />)}
+                            {[].map((input, index) => <></>)}
                             {/* Selects */}
-                            {selectsListData.map((input, index) => <FormikSelectGroup
-                                key={index}
-                                {...{
-                                    ...input,
-                                    onChange: handleChange,
-                                    onBlur: handleBlur
-                                }}
-                            />)}
+                            {[].map((input, index) => <></>)}
                             {/* Textarea */}
                             <div className='sm:col-span-2 md:col-span-3'>
                                 {/* Label */}
@@ -120,4 +102,4 @@ function ContactForm() {
     )
 }
 
-export default ContactForm;
+export default BookForm;
